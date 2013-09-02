@@ -27,10 +27,16 @@
     <option name="formatter" value="ECLIPSE" />
     <option name="id" value="1376150278512" />
     <option name="name" value="default" />
-    <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../SpringBasicSample/config/liqing-formatter.xml" />
+    <option name="pathToConfigFileJava" value="$PROJECT_DIR$/../../WebApp/SpringBasicSample/config/liqing-formatter.xml" />
     <option name="selectedJavaProfile" value="kuk" />
   </component>
-  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false" />
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/.gitignore" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config" charset="UTF-8" />
+  </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="GradleUISettings">
     <setting name="root" />
   </component>
@@ -178,7 +184,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/gradle-sample.iml" filepath="$PROJECT_DIR$/gradle-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reflect-sample.iml" filepath="$PROJECT_DIR$/reflect-sample.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
