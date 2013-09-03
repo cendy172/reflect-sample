@@ -52,8 +52,8 @@
     <file path="/HomeTheaterTest.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1377761898901" ignored="false" />
     <file path="$PROJECT_DIR$/../PatternSample/FacadePattern/src/main/java/com/liqing/facade/HomeTheater.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1377761249806" ignored="false" />
     <file path="/HomeTheater.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1377760046430" ignored="false" />
-    <file path="/PublicClass.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378213644822" ignored="false" />
-    <file path="/ClassReflect.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378214405869" ignored="false" />
+    <file path="/PublicClass.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378214583286" ignored="false" />
+    <file path="/ClassReflect.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378214682756" ignored="false" />
     <file path="/PublicClassTest.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1377835672208" ignored="false" />
     <file path="/ClassReflectTest.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1377839506045" ignored="false" />
     <file path="$PROJECT_DIR$/../annotation-sample/build.gradle" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378200354849" ignored="false" />
@@ -67,7 +67,7 @@
     <file path="/Dummy.txt" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211943113" ignored="false" />
     <file path="$PROJECT_DIR$/../feature-toggle/aspect-runner/pom.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211943113" ignored="false" />
     <file path="$PROJECT_DIR$/../feature-toggle/.idea/vcs.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211987055" ignored="false" />
-    <file path="$PROJECT_DIR$/../feature-toggle/.idea/workspace.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378214458670" ignored="false" />
+    <file path="$PROJECT_DIR$/../feature-toggle/.idea/workspace.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378214566379" ignored="false" />
     <file path="$PROJECT_DIR$/../feature-toggle/.idea/encodings.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211987055" ignored="false" />
     <file path="$PROJECT_DIR$/../feature-toggle/.idea/misc.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211987055" ignored="false" />
     <file path="$PROJECT_DIR$/../feature-toggle/.idea/compiler.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211987055" ignored="false" />
@@ -132,10 +132,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ClassReflect.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ClassReflect.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/classes/ClassReflect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="8" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0">
+            <state line="14" column="46" selection-start="627" selection-end="627" vertical-scroll-proportion="0.215311">
               <folding />
             </state>
           </provider>
@@ -144,16 +144,16 @@
       <file leaf-file-name="PublicClass.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/classes/PublicClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="5" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+            <state line="10" column="11" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClassReflectTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ClassReflectTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/liqing/classes/ClassReflectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="25" selection-start="435" selection-end="435" vertical-scroll-proportion="0.14354067">
+            <state line="29" column="41" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -171,7 +171,7 @@
       <file leaf-file-name="PublicClassTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/liqing/classes/PublicClassTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="32" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
+            <state line="19" column="31" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -192,10 +192,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/liqing/CreateDuckUseReflect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liqing/ClassReflect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liqing/Duck.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/liqing/classes/ClassReflectTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/liqing/classes/PublicClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/liqing/classes/PublicClassTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/liqing/classes/ClassReflectTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liqing/classes/ClassReflect.java" />
       </list>
     </option>
@@ -595,7 +595,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="785" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -756,28 +756,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/liqing/classes/PublicClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="32" selection-start="885" selection-end="885" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/classes/ClassReflect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="8" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/classes/PublicClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="5" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+        <state line="19" column="31" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/liqing/classes/ClassReflectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="25" selection-start="435" selection-end="435" vertical-scroll-proportion="0.14354067">
+        <state line="29" column="41" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/classes/PublicClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="11" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/classes/ClassReflect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="46" selection-start="627" selection-end="627" vertical-scroll-proportion="0.215311">
           <folding />
         </state>
       </provider>
