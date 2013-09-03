@@ -1,0 +1,9 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="com.liqing.classes.PublicClassTest" tests="3" failures="0" errors="0" timestamp="2013-09-03T13:21:21" hostname="localhost" time="0.0010">
+  <properties/>
+  <testcase name="shouldCreateAPublicClassWithTwoParameter" classname="com.liqing.classes.PublicClassTest" time="0.0"/>
+  <testcase name="shouldCreateAPublicClassWithOneParameter" classname="com.liqing.classes.PublicClassTest" time="0.0"/>
+  <testcase name="shouldCreateAPublicClassWithNoParameter" classname="com.liqing.classes.PublicClassTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

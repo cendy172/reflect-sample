@@ -11,7 +11,6 @@ dependencies {
             'org.springframework:spring-core:3.0.5.RELEASE',
             'org.springframework:spring-web:3.0.5.RELEASE',
             'org.springframework:spring-webmvc:3.0.5.RELEASE',
-            'com.google.guava.guave:14.0.1',
             'junit:junit:4.11'
     )
 }
