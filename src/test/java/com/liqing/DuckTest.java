@@ -3,42 +3,41 @@ package com.liqing;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-import org.junit.Before;
-import org.junit.Test;
+import com.liqing.testframework.Case;
 
 public class DuckTest
 {
 
 	private Duck duck;
 
-	@Before
+	@Case
 	public void setUp()
 	{
 		duck = new Duck();
 	}
 
-	@Test
+	@Case
 	public void shouldQuackWhenDuckIsQuacking()
 	{
 		String quackVoice = duck.quack();
 		assertThat(quackVoice, is("I'm a duck"));
 	}
 
-	@Test
+	@Case
 	public void shouldQuackWithNameWhenDuckIsQuacking()
 	{
 		String quackVoice = duck.quack("fake_name");
 		assertThat(quackVoice, is("My name is fake_name"));
 	}
 
-	@Test
+	@Case
 	public void shouldReturnQuackVoiceWhenSetNameAndDescription()
 	{
 		String quackVoice = duck.quack("Mallard", "fake_name");
 		assertThat(quackVoice, is("A Mallard named fake_name is quacking"));
 	}
 
-	@Test
+	@Case
 	public void shouldReturnDescriptionWhenToString()
 	{
 		String description = duck.toString();

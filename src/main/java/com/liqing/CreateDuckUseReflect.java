@@ -1,6 +1,5 @@
 package com.liqing;
 
-import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
@@ -9,123 +8,42 @@ public class CreateDuckUseReflect
 	private Class cls;
 	private Duck duck;
 
-	public Duck createDuck()
+	public Duck createDuck() throws ClassNotFoundException, IllegalAccessException, InstantiationException
 	{
-		try
-		{
-			cls = Class.forName("com.liqing.Duck");
-		} catch (ClassNotFoundException e)
-		{
-			e.printStackTrace();
-		}
-		try
-		{
-			duck = (Duck) cls.newInstance();
-		} catch (InstantiationException e)
-		{
-			e.printStackTrace();
-		} catch (IllegalAccessException e)
-		{
-			e.printStackTrace();
-		}
+		cls = Class.forName("com.liqing.Duck");
+		duck = (Duck) cls.newInstance();
 		return duck;
 	}
 
-	public String invokeQuack()
+	public String invokeQuack() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException
 	{
-		Method method = null;
-		try
-		{
-			method = cls.getDeclaredMethod("quack");
-		} catch (NoSuchMethodException e)
-		{
-			e.printStackTrace();
-		}
-		try
-		{
-			return String.valueOf(method.invoke(duck));
-		} catch (IllegalAccessException e)
-		{
-			e.printStackTrace();
-		} catch (InvocationTargetException e)
-		{
-			e.printStackTrace();
-		}
-		return "";
+		return String.valueOf(cls.getDeclaredMethod("quack").invoke(duck));
 	}
 
-	public void setDuckDescription(String description)
+	public void setDuckDescription(String description) throws NoSuchFieldException, IllegalAccessException
 	{
-		Field descriptionField = null;
-		try
+		cls.getDeclaredField("description").setAccessible(true);
+		if (cls.getDeclaredField("description") != null)
 		{
-			descriptionField = cls.getDeclaredField("description");
-			descriptionField.setAccessible(true);
-		} catch (NoSuchFieldException e)
-		{
-			e.printStackTrace();
-		}
-		if (descriptionField != null)
-		{
-			try
-			{
-				descriptionField.set(duck, description);
-			} catch (IllegalAccessException e)
-			{
-				e.printStackTrace();
-			}
+			cls.getDeclaredField("description").set(duck, description);
 		}
 	}
 
-	public String invokeQuackWithName(String name)
+	public String invokeQuackWithName(String name) throws NoSuchMethodException, InvocationTargetException,
+			IllegalAccessException
 	{
-		Method quackWithName = null;
-		try
-		{
-			Class[] parameters =
-			{ String.class };
-			quackWithName = cls.getDeclaredMethod("quack", parameters);
-		} catch (NoSuchMethodException e)
-		{
-			e.printStackTrace();
-		}
-		try
-		{
-			return (String) quackWithName.invoke(duck, name);
-		} catch (IllegalAccessException e)
-		{
-			e.printStackTrace();
-		} catch (InvocationTargetException e)
-		{
-			e.printStackTrace();
-		}
-		return "";
+		return (String) cls.getDeclaredMethod("quack", String.class).invoke(duck, name);
 	}
 
-	public String invokeQuackWithNameAndDescription(String description, String name)
+	public String invokeQuackWithNameAndDescription(String description, String name) throws NoSuchMethodException,
+			InvocationTargetException, IllegalAccessException
 	{
 		Method quackWithNameAndDescription = null;
-		try
-		{
-			Class[] parameters = new Class[2];
-			parameters[0] = String.class;
-			parameters[1] = String.class;
+		Class[] parameters = new Class[2];
+		parameters[0] = String.class;
+		parameters[1] = String.class;
 
-			quackWithNameAndDescription = cls.getDeclaredMethod("quack", parameters);
-		} catch (NoSuchMethodException e)
-		{
-			e.printStackTrace();
-		}
-		try
-		{
-			return (String) quackWithNameAndDescription.invoke(duck, description, name);
-		} catch (IllegalAccessException e)
-		{
-			e.printStackTrace();
-		} catch (InvocationTargetException e)
-		{
-			e.printStackTrace();
-		}
-		return "";
+		quackWithNameAndDescription = cls.getDeclaredMethod("quack", parameters);
+		return (String) quackWithNameAndDescription.invoke(duck, description, name);
 	}
 }
