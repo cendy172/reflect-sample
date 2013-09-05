@@ -4,13 +4,14 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 import com.liqing.testframework.Case;
+import com.liqing.testframework.CaseAfter;
+import com.liqing.testframework.CaseBefore;
 
 public class DuckTest
 {
-
 	private Duck duck;
 
-	@Case
+	@CaseBefore
 	public void setUp()
 	{
 		duck = new Duck();
@@ -42,5 +43,11 @@ public class DuckTest
 	{
 		String description = duck.toString();
 		assertThat(description, is("I'm a "));
+	}
+
+	@CaseAfter
+	public void tearDown()
+	{
+		duck = null;
 	}
 }
