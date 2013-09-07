@@ -1,5 +1,6 @@
 package com.liqing;
 
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
@@ -22,10 +23,11 @@ public class CreateDuckUseReflect
 
 	public void setDuckDescription(String description) throws NoSuchFieldException, IllegalAccessException
 	{
-		cls.getDeclaredField("description").setAccessible(true);
-		if (cls.getDeclaredField("description") != null)
+		Field description1 = cls.getDeclaredField("description");
+		if (description1 != null)
 		{
-			cls.getDeclaredField("description").set(duck, description);
+			description1.setAccessible(true);
+			description1.set(duck, description);
 		}
 	}
 
