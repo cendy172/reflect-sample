@@ -35,7 +35,7 @@ public class PrivateClassReflectTest
 	@Test
 	public void shouldReturnAPrivateClassWhenCreateWithOneParameter() throws Exception
 	{
-		privateClass = privateClassReflect.createPrivateClassWithoutParameter("fake_description");
+		privateClass = privateClassReflect.createPrivateClassWithOneParameter("fake_description");
 		assertNotNull(privateClass);
 		assertThat(privateClass.getDescription(), is("fake_description"));
 		assertNull(privateClass.getDuck());
@@ -44,7 +44,7 @@ public class PrivateClassReflectTest
 	@Test
 	public void shouldReturnAPrivateClassWhenCreateWithTwoParameters() throws Exception
 	{
-		privateClass = privateClassReflect.createPrivateClassWithoutParameter("fake_description", new Duck("fake_duck"));
+		privateClass = privateClassReflect.createPrivateClassWithTwoParameters("fake_description", new Duck("fake_duck"));
 		assertNotNull(privateClass);
 		assertThat(privateClass.getDescription(), is("fake_description"));
 		assertNotNull(privateClass.getDuck());

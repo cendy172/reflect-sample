@@ -18,13 +18,13 @@ public class PrivateClassReflect
 		return constructorWithOneParameter.newInstance();
 	}
 
-	public PrivateClass createPrivateClassWithoutParameter(String description) throws Exception
+	public PrivateClass createPrivateClassWithOneParameter(String description) throws Exception
 	{
 		Constructor<PrivateClass> constructorWithOneParameter = PrivateClass.class.getDeclaredConstructor(String.class);
 		return constructorWithOneParameter.newInstance(description);
 	}
 
-	public PrivateClass createPrivateClassWithoutParameter(String description, Duck duck) throws Exception
+	public PrivateClass createPrivateClassWithTwoParameters(String description, Duck duck) throws Exception
 	{
 		Constructor<PrivateClass> constructorWithTwoParameters = PrivateClass.class.getDeclaredConstructor(
 				String.class, Duck.class);
