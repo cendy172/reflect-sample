@@ -7,19 +7,19 @@ public class ProtectedClass
 	private final String description;
 	private final Duck duck;
 
-	protected ProtectedClass()
+	public ProtectedClass()
 	{
 		this.description = "";
 		this.duck = null;
 	}
 
-	protected ProtectedClass(String description)
+	public ProtectedClass(String description)
 	{
 		this.description = description;
 		this.duck = null;
 	}
 
-	protected ProtectedClass(String description, Duck duck)
+	public ProtectedClass(String description, Duck duck)
 	{
 		this.description = description;
 		this.duck = duck;

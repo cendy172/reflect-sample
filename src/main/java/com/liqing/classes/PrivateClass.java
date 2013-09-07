@@ -7,19 +7,19 @@ public class PrivateClass
 	private final String description;
 	private final Duck duck;
 
-	protected PrivateClass()
+	public PrivateClass()
 	{
 		this.description = "";
 		this.duck = null;
 	}
 
-	protected PrivateClass(String description)
+	public PrivateClass(String description)
 	{
 		this.description = description;
 		this.duck = null;
 	}
 
-	protected PrivateClass(String description, Duck duck)
+	public PrivateClass(String description, Duck duck)
 	{
 		this.description = description;
 		this.duck = duck;

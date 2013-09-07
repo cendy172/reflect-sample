@@ -1,10 +1,10 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="com.liqing.CreateDuckUseReflectTest" tests="5" failures="0" errors="0" timestamp="2013-09-07T02:26:39" hostname="qli.local" time="0.0060">
+<testsuite name="com.liqing.CreateDuckUseReflectTest" tests="5" failures="0" errors="0" timestamp="2013-09-07T04:17:41" hostname="localhost" time="0.0070">
   <properties/>
-  <testcase name="shouldReturnVoiceWhenWithNameAndDescription" classname="com.liqing.CreateDuckUseReflectTest" time="0.0030"/>
+  <testcase name="shouldReturnVoiceWhenWithNameAndDescription" classname="com.liqing.CreateDuckUseReflectTest" time="0.0040"/>
   <testcase name="shouldReturnADuckWhenCreateADuck" classname="com.liqing.CreateDuckUseReflectTest" time="0.0010"/>
   <testcase name="shouldSetDuckDescriptionWhenSetIsMallard" classname="com.liqing.CreateDuckUseReflectTest" time="0.0"/>
-  <testcase name="shouldReturnQuackVoiceWithNameWhenSetName" classname="com.liqing.CreateDuckUseReflectTest" time="0.0010"/>
+  <testcase name="shouldReturnQuackVoiceWithNameWhenSetName" classname="com.liqing.CreateDuckUseReflectTest" time="0.0"/>
   <testcase name="shouldReturnQuackVoiceWhenInvokeQuack" classname="com.liqing.CreateDuckUseReflectTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

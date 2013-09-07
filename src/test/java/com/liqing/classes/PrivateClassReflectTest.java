@@ -5,6 +5,7 @@ import static junit.framework.Assert.assertNull;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
+import com.liqing.reflect.PrivateClassReflect;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
