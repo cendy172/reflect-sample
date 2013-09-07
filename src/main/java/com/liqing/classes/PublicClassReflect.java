@@ -1,16 +1,14 @@
 package com.liqing.classes;
 
 import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationTargetException;
 
 import com.liqing.Duck;
 
 public class PublicClassReflect
 {
-	public PublicClass createPublicClassWithoutParameter() throws ClassNotFoundException, IllegalAccessException,
-			InstantiationException, NoSuchMethodException, InvocationTargetException
+	public PublicClass createPublicClassWithoutParameter() throws Exception
 	{
-		// can work too
+		// can work too, only for public constructor
 		// Class cls = Class.forName("com.liqing.classes.PublicClass");
 		// return (PublicClass) cls.newInstance();
 		Constructor<PublicClass> declaredConstructor = PublicClass.class.getDeclaredConstructor();
@@ -18,16 +16,14 @@ public class PublicClassReflect
 		return declaredConstructor.newInstance();
 	}
 
-	public PublicClass createPublicClassWithOneParameter(String description) throws NoSuchMethodException,
-			IllegalAccessException, InvocationTargetException, InstantiationException
+	public PublicClass createPublicClassWithOneParameter(String description) throws Exception
 	{
 		Constructor<PublicClass> ctor = PublicClass.class.getDeclaredConstructor(String.class);
 		ctor.setAccessible(true);
 		return ctor.newInstance(description);
 	}
 
-	public PublicClass createPublicClassWithTwoParameters(String description, Duck duck) throws NoSuchMethodException,
-			IllegalAccessException, InvocationTargetException, InstantiationException
+	public PublicClass createPublicClassWithTwoParameters(String description, Duck duck) throws Exception
 	{
 		Constructor<PublicClass> ctor = PublicClass.class.getDeclaredConstructor(String.class, Duck.class);
 		ctor.setAccessible(true);

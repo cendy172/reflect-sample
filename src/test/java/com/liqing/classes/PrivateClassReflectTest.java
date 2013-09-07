@@ -9,6 +9,8 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.liqing.Duck;
+
 public class PrivateClassReflectTest
 {
 
@@ -28,6 +30,24 @@ public class PrivateClassReflectTest
 		assertNotNull(privateClass);
 		assertThat(privateClass.getDescription(), is(""));
 		assertNull(privateClass.getDuck());
+	}
+
+	@Test
+	public void shouldReturnAPrivateClassWhenCreateWithOneParameter() throws Exception
+	{
+		privateClass = privateClassReflect.createPrivateClassWithoutParameter("fake_description");
+		assertNotNull(privateClass);
+		assertThat(privateClass.getDescription(), is("fake_description"));
+		assertNull(privateClass.getDuck());
+	}
+
+	@Test
+	public void shouldReturnAPrivateClassWhenCreateWithTwoParameters() throws Exception
+	{
+		privateClass = privateClassReflect.createPrivateClassWithoutParameter("fake_description", new Duck("fake_duck"));
+		assertNotNull(privateClass);
+		assertThat(privateClass.getDescription(), is("fake_description"));
+		assertNotNull(privateClass.getDuck());
 	}
 
 	@After
