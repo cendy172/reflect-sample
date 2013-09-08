@@ -12,7 +12,7 @@
     <file path="/LoginControllerTest.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1377414880790" ignored="false" />
     <file path="/BaseController.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1377413054875" ignored="false" />
     <file path="$PROJECT_DIR$/../springmvc-sample/src/main/java/controller/BaseController.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1377413154856" ignored="false" />
-    <file path="/fragment.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378519195011" ignored="false" />
+    <file path="/fragment.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378606578640" ignored="false" />
     <file path="$PROJECT_DIR$/../springmvc-sample/src/test/java/controller/BaseControllerTest.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1377413452843" ignored="false" />
     <file path="/BaseControllerTest.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1377412348534" ignored="false" />
     <file path="$PROJECT_DIR$/../springmvc-sample/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1377413002647" ignored="false" />
@@ -67,7 +67,7 @@
     <file path="/Dummy.txt" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211943113" ignored="false" />
     <file path="$PROJECT_DIR$/../feature-toggle/aspect-runner/pom.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211943113" ignored="false" />
     <file path="$PROJECT_DIR$/../feature-toggle/.idea/vcs.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211987055" ignored="false" />
-    <file path="$PROJECT_DIR$/../feature-toggle/.idea/workspace.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378527450543" ignored="false" />
+    <file path="$PROJECT_DIR$/../feature-toggle/.idea/workspace.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378609831486" ignored="false" />
     <file path="$PROJECT_DIR$/../feature-toggle/.idea/encodings.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211987055" ignored="false" />
     <file path="$PROJECT_DIR$/../feature-toggle/.idea/misc.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211987055" ignored="false" />
     <file path="$PROJECT_DIR$/../feature-toggle/.idea/compiler.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211987055" ignored="false" />
@@ -78,15 +78,18 @@
     <file path="/CaseBefore.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378383824360" ignored="false" />
     <file path="/CaseAfter.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378383844535" ignored="false" />
     <file path="/TestRunnerTest.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378384648241" ignored="false" />
-    <file path="/PrivateClass.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378527402831" ignored="false" />
-    <file path="/PrivateClassReflect.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378520087197" ignored="false" />
+    <file path="/PrivateClass.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378609764649" ignored="false" />
+    <file path="/PrivateClassReflect.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378609706891" ignored="false" />
     <file path="/PrivateClassReflectTest.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378520064818" ignored="false" />
     <file path="/PublicClassReflect.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378477282984" ignored="false" />
     <file path="/.gitignore" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378455314879" ignored="false" />
     <file path="/PublicClassReflectTest.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378477349294" ignored="false" />
-    <file path="/ProtectedClass.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378527337179" ignored="false" />
+    <file path="/ProtectedClass.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378563909695" ignored="false" />
     <file path="/ProtectedClassReflect.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378520255722" ignored="false" />
     <file path="/ProtectedClassReflectTest.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378520134352" ignored="false" />
+    <file path="/AbstractClass.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378606395406" ignored="false" />
+    <file path="/AbstractClassReflect.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378607107768" ignored="false" />
+    <file path="/AbstractClassReflectTest.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378606679577" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +149,44 @@
     <favorites_list name="gradle-sample" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="PublicClassReflect.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/reflect/PublicClassReflect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="52" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProtectedClass.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/classes/ProtectedClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="25" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProtectedClass.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/metod/ProtectedClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="13" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PublicClass.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/classes/PublicClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="19" selection-start="132" selection-end="132" vertical-scroll-proportion="0.16483517">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -156,14 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/liqing/testframework/Case.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liqing/testframework/CaseBefore.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liqing/testframework/CaseAfter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/liqing/TestRunnerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/liqing/DuckTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liqing/testframework/TestRunner.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liqing/classes/PublicClassReflect.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/liqing/classes/PublicClassReflectTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/liqing/classes/PrivateClassReflectTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liqing/classes/PrivateClassReflect.java" />
@@ -171,6 +203,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/liqing/classes/ProtectedClassReflect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liqing/CreateDuckUseReflect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liqing/classes/ProtectedClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liqing/classes/AbstractClass.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/liqing/classes/AbstractClassReflectTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liqing/reflect/AbstractClassReflect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liqing/metod/ProtectedClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liqing/metod/PrivateClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liqing/metod/PrivateClassWithMethods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liqing/classes/PublicClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liqing/reflect/PrivateClassReflect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liqing/classes/PrivateClass.java" />
       </list>
     </option>
@@ -256,6 +296,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="liqing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gradle-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reflect-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liqing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -371,6 +441,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="metod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gradle-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reflect-sample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liqing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="classes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -408,7 +508,12 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.liqing.classes" />
+      <recent name="com.liqing.reflect" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/liqing/metod" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -466,29 +571,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="CreateDuckUseReflectTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" />
-      <module name="reflect-sample" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.liqing" />
-      <option name="MAIN_CLASS_NAME" value="com.liqing.CreateDuckUseReflectTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="CreateDuckUseReflectTest.shouldSetDuckDescriptionWhenSetIsMallard" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" />
       <module name="reflect-sample" />
@@ -521,6 +603,35 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AbstractClassReflectTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="reflect-sample" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.liqing.classes" />
+      <option name="MAIN_CLASS_NAME" value="com.liqing.classes.AbstractClassReflectTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -595,17 +706,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.PrivateClassReflectTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.ProtectedClassReflectTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CreateDuckUseReflectTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CreateDuckUseReflectTest.shouldSetDuckDescriptionWhenSetIsMallard" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.com.liqing in reflect-sample" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CreateDuckUseReflectTest.shouldSetDuckDescriptionWhenSetIsMallard" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.com.liqing in reflect-sample" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AbstractClassReflectTest" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.com.liqing in reflect-sample" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PrivateClassReflectTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.ProtectedClassReflectTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CreateDuckUseReflectTest.shouldSetDuckDescriptionWhenSetIsMallard" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CreateDuckUseReflectTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AbstractClassReflectTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PrivateClassReflectTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ProtectedClassReflectTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CreateDuckUseReflectTest.shouldSetDuckDescriptionWhenSetIsMallard" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -643,6 +754,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -653,11 +765,10 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892396" sideWeight="0.75789475" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24210526" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24892396" sideWeight="0.6706767" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24210526" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -727,41 +838,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/reflect-sample.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="186" selection-end="186" vertical-scroll-proportion="0.074875206">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="5" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0732899">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/testframework/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="520" selection-end="523" vertical-scroll-proportion="0.6302521">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/classes/PublicClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/reflect/PublicClassReflect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="52" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/liqing/classes/PublicClassReflectTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="75" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.0">
@@ -769,15 +845,6 @@
             <element signature="imports" expanded="false" />
             <marker date="1378527247000" expanded="true" signature="-1:-1" placeholder="{...}" />
             <marker date="1378527247000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/reflect/PrivateClassReflect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="59" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -821,20 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/classes/ProtectedClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="17" selection-start="314" selection-end="314" vertical-scroll-proportion="0.5672269">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/liqing/classes/PrivateClassReflectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="394" selection-end="394" vertical-scroll-proportion="0.12605043">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/liqing/classes/ProtectedClassReflectTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="59" selection-start="752" selection-end="752" vertical-scroll-proportion="0.53571427">
@@ -844,9 +897,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/classes/PrivateClass.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/classes/ProtectedClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="178" selection-end="178" vertical-scroll-proportion="0.34663865">
+        <state line="18" column="25" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/metod/ProtectedClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/classes/PublicClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="132" selection-end="132" vertical-scroll-proportion="0.16483517">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/reflect/PublicClassReflect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="52" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

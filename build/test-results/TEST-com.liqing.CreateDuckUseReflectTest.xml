@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
-<testsuite name="com.liqing.CreateDuckUseReflectTest" tests="5" failures="0" errors="0" timestamp="2013-09-07T04:17:41" hostname="localhost" time="0.0070">
+<testsuite name="com.liqing.CreateDuckUseReflectTest" tests="5" failures="0" errors="0" timestamp="2013-09-08T03:39:00" hostname="localhost" time="0.0060">
   <properties/>
-  <testcase name="shouldReturnVoiceWhenWithNameAndDescription" classname="com.liqing.CreateDuckUseReflectTest" time="0.0040"/>
+  <testcase name="shouldReturnVoiceWhenWithNameAndDescription" classname="com.liqing.CreateDuckUseReflectTest" time="0.0030"/>
   <testcase name="shouldReturnADuckWhenCreateADuck" classname="com.liqing.CreateDuckUseReflectTest" time="0.0010"/>
   <testcase name="shouldSetDuckDescriptionWhenSetIsMallard" classname="com.liqing.CreateDuckUseReflectTest" time="0.0"/>
   <testcase name="shouldReturnQuackVoiceWithNameWhenSetName" classname="com.liqing.CreateDuckUseReflectTest" time="0.0"/>

@@ -1,10 +1,11 @@
-package com.liqing.classes;
+package com.liqing.metod;
 
 import com.liqing.Duck;
 
 public class PublicClass
 {
 	private final String description;
+
 	private final Duck duck;
 
 	private PublicClass()
