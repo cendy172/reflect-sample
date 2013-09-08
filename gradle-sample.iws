@@ -67,7 +67,7 @@
     <file path="/Dummy.txt" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211943113" ignored="false" />
     <file path="$PROJECT_DIR$/../feature-toggle/aspect-runner/pom.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211943113" ignored="false" />
     <file path="$PROJECT_DIR$/../feature-toggle/.idea/vcs.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211987055" ignored="false" />
-    <file path="$PROJECT_DIR$/../feature-toggle/.idea/workspace.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378609831486" ignored="false" />
+    <file path="$PROJECT_DIR$/../feature-toggle/.idea/workspace.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378616509854" ignored="false" />
     <file path="$PROJECT_DIR$/../feature-toggle/.idea/encodings.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211987055" ignored="false" />
     <file path="$PROJECT_DIR$/../feature-toggle/.idea/misc.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211987055" ignored="false" />
     <file path="$PROJECT_DIR$/../feature-toggle/.idea/compiler.xml" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378211987055" ignored="false" />
@@ -84,7 +84,7 @@
     <file path="/PublicClassReflect.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378477282984" ignored="false" />
     <file path="/.gitignore" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378455314879" ignored="false" />
     <file path="/PublicClassReflectTest.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378477349294" ignored="false" />
-    <file path="/ProtectedClass.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378563909695" ignored="false" />
+    <file path="/ProtectedClass.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378616219796" ignored="false" />
     <file path="/ProtectedClassReflect.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378520255722" ignored="false" />
     <file path="/ProtectedClassReflectTest.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378520134352" ignored="false" />
     <file path="/AbstractClass.java" changelist="ade1ac3e-49d5-442a-a8b5-589dbabc77bf" time="1378606395406" ignored="false" />
@@ -150,37 +150,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PublicClassReflect.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="PublicClassReflect.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/reflect/PublicClassReflect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="52" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+            <state line="10" column="52" selection-start="241" selection-end="241" vertical-scroll-proportion="0.16483517">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProtectedClass.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/classes/ProtectedClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="25" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProtectedClass.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/metod/ProtectedClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PublicClass.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="PublicClass.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/classes/PublicClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="132" selection-end="132" vertical-scroll-proportion="0.16483517">
+            <state line="7" column="19" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -202,7 +184,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/liqing/classes/ProtectedClassReflectTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liqing/classes/ProtectedClassReflect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liqing/CreateDuckUseReflect.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/liqing/classes/ProtectedClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liqing/classes/AbstractClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/liqing/classes/AbstractClassReflectTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liqing/reflect/AbstractClassReflect.java" />
@@ -212,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/liqing/classes/PublicClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liqing/reflect/PrivateClassReflect.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/liqing/classes/PrivateClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liqing/classes/ProtectedClass.java" />
       </list>
     </option>
   </component>
@@ -879,48 +861,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/reflect/ProtectedClassReflect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="196" selection-end="196" vertical-scroll-proportion="0.31512606">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/liqing/classes/ProtectedClassReflectTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="59" selection-start="752" selection-end="752" vertical-scroll-proportion="0.53571427">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/classes/ProtectedClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/metod/ProtectedClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="13" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/classes/PublicClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="132" selection-end="132" vertical-scroll-proportion="0.16483517">
+        <state line="7" column="19" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/liqing/reflect/PublicClassReflect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="52" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
+        <state line="10" column="52" selection-start="241" selection-end="241" vertical-scroll-proportion="0.16483517">
           <folding />
         </state>
       </provider>
